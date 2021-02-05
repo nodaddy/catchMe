@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <!-- this head tag below only has meta information about the page -->
+    <head>
+      <title>My Webpage</title>
+      <link rel="stylesheet" href='./../../index.css'>
+    </head>
+
+    <body bgcolor="black">   
+
+      <button onclick="startMoving()" id="myButton" > PLAY </button> 
+
+      <br/><br/>
+
+      <button id="level-up-button" onclick="levelUp()">Decrease TI</button>
+
+      <br/><br/>
+
+      <button id="level-down-button" onclick="levelDown()">Increase TI</button>
+
+      <br/><br/>
+
+      <!--span to show TIME REAMINING-->
+      <span id="timer" style="color:white;"></span><br/><br/>
+
+      <!--span to show LEVEL-->
+      <span id="level" style="color:white;"></span>
+      
+      <!--sqaure div that moves randomly on the screen-->
+      <div onclick="onDivClick()" id='myDiv' align="center" 
+      style=" 
+      padding:10px;
+      color:aliceblue;
+      font-size:20px; 
+      position: absolute;
+      width:80px;
+      height:80px;
+      background-color:green;">
+      </div>  
+ 
+
+    </body>
+    <script src="../index.js"></script>
+</html>
+
+ 
