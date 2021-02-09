@@ -105,3 +105,26 @@ setInterval(()=>{
 
 
 //thank you : )
+
+
+
+
+//TO DO list app
+
+//HTML
+//input element
+//button [Add task] 
+//a dynamic list -> in javascrpt
+
+//JAVASCRIPT
+//[document.createElement('li'), document.createTextNode(), ele.appendChild()]
+
+
+
+function addTask(){
+    let taskText = document.getElementById('task-input').value;
+    let myTaskTextNode = document.createTextNode(taskText);
+    let newListItem = document.createElement('li'); //<li></li>
+    newListItem.appendChild(myTaskTextNode); //<li>text</li> 
+    document.getElementById('my-tasks').appendChild(newListItem);
+}
