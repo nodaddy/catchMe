@@ -4,6 +4,9 @@
 //}, t);
 // left and top css properties with absolute positiona
 
+const { newExpression } = require("@babel/types");
+const { version } = require("yargs");
+
 //random number generator || Math.random();   //returns a random number between 0 to 1
 //call the function at specific intervals e.g 1000ms or 1 sec // setInterval ..takes 2 things as argumnets 
 //1. the function we want to call again and again
@@ -128,3 +131,20 @@ function addTask(){
     newListItem.appendChild(myTaskTextNode); //<li>text</li> 
     document.getElementById('my-tasks').appendChild(newListItem);
 }
+
+
+
+
+
+//git
+
+//neel          hi everyone
+//ram           hi everuone good norning
+//erasto        hi everuone good morning
+//maheshwari    hi! everyone, good morning!
+
+// git 
+//working directory
+//staging directory git add .
+//snapshots of verisons git commit -> git push
+
